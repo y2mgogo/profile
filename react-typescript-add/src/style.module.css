@@ -1,0 +1,59 @@
+.container > div > div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+  }
+  
+  .text {
+    pointer-events: none;
+    justify-content: start !important;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+  
+  .number {
+    text-align: left;
+    vertical-align: top;
+    font-size: 30px;
+    color: #f8f8f9;
+  }
+  
+  .number span {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .slopeBegin {
+    background-color: #20232f;
+    clip-path: polygon(20% 0, 70% 0, 50% 100%, 0% 100%);
+  }
+  
+  .slopeEnd {
+    clip-path: polygon(70% 0, 100% 0, 80% 100%, 50% 100%);
+  }
+  
+  .slopeBegin,
+  .slopeEnd {
+    position: absolute;
+    width: 170%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .pink {
+    background: linear-gradient(to right, deeppink 0%, coral 100%);
+  }
+  
+  .teal {
+    background: linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%);
+  }
+  
+  .tomato {
+    background: linear-gradient(to right, tomato 0%, gold 100%);
+  }
+  

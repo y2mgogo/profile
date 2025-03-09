@@ -39,9 +39,6 @@ export default function App() {
     }
   }
   const content1 = `
-  주요 프로젝트
-  
-  
   2025.01 ~ 2025.03 우리투자증권 금융상품 시스템 프로젝트 참여
 
   
@@ -76,7 +73,7 @@ export default function App() {
   2019.04 정보처리기사(한국산업인력공단)
   
   2012.04 CCNA(CISCO)`
-  const title1 = '참여 프로젝트'
+  const title1 = '주요 프로젝트'
   const title2 = '보유기술'
   const title3 = '자격사항'
   return (
